@@ -8,7 +8,7 @@
 using namespace std;
 
 int task_one() {
-  std::ifstream fin;
+  ifstream fin;
   fin.open("input.txt");
 
   int current_number, prev_number;
@@ -27,7 +27,7 @@ int task_one() {
 }
 
 int task_two() {
-  std::ifstream fin;
+  ifstream fin;
   fin.open("input.txt");
 
   std::vector<int> data;
